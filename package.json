@@ -1,0 +1,36 @@
+{
+  "name": "lesson-54-intro-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "autoprefixer": "^10.4.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss-loader": "^6.2.1",
+    "precss": "^4.0.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "wepback": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "date-fns": "^2.27.0",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
